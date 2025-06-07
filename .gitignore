@@ -6,6 +6,12 @@ code .gitignore
 
 env/
 
+# Sensitive credentials folder
+credentials/*
+!credentials/.gitkeep
+# Google API token file (also sensitive)
+token.json
+
 
 
 # Python bytecode
