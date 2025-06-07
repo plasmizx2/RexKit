@@ -1,0 +1,45 @@
+code .gitignore
+
+
+
+# Python virtual environment
+
+env/
+
+
+
+# Python bytecode
+
+__pycache__/
+
+*.pyc
+
+
+
+# Environment variables file (IMPORTANT for API keys!)
+
+.env
+
+
+
+# Common OS and IDE specific files to ignore
+
+.DS_Store    # macOS
+
+Thumbs.db    # Windows
+
+.vscode/     # VS Code editor settings (optional, if you don't want to share)
+
+.idea/       # PyCharm/IntelliJ IDE files
+
+
+
+# Other common build/dist folders
+
+build/
+
+dist/
+
+*.egg-info/
+
+is this right for a gitignore
