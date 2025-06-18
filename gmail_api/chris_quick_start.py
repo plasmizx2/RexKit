@@ -6,6 +6,29 @@ from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 
+
+
+def UserInterface():
+  print"""
+  
+ ::::::::  ::::    ::::      :::     ::::::::::: :::       
+:+:    :+: +:+:+: :+:+:+   :+: :+:       :+:     :+:       
++:+        +:+ +:+:+ +:+  +:+   +:+      +:+     +:+       
+:#:        +#+  +:+  +#+ +#++:++#++:     +#+     +#+       
++#+   +#+# +#+       +#+ +#+     +#+     +#+     +#+       
+#+#    #+# #+#       #+# #+#     #+#     #+#     #+#       
+ ########  ###       ### ###     ### ########### ##########
+    :::     ::::::::: :::::::::::                          
+  :+: :+:   :+:    :+:    :+:                              
+ +:+   +:+  +:+    +:+    +:+                              
++#++:++#++: +#++:++#+     +#+                              
++#+     +#+ +#+           +#+                              
+#+#     #+# #+#           #+#                              
+###     ### ###       ###########                          
+  
+  
+  """
+
 # If modifying these scopes, delete the file token.json.
 SCOPES = ["https://www.googleapis.com/auth/gmail.readonly"]
 
@@ -14,6 +37,9 @@ def main():
   """Shows basic usage of the Gmail API.
   Lists the user's Gmail labels.
   """
+
+  UserInterface()
+  
   creds = None
   # The file token.json stores the user's access and refresh tokens, and is
   # created automatically when the authorization flow completes for the first
